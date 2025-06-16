@@ -15,7 +15,7 @@ search-autocomplete/
 ├── suggestor.py           # Autocomplete logic with DFS + Min-Heap
 ├── corrector.py           # Damerau-Levenshtein distance-based autocorrect
 ├── main.py                # CLI interface to test autocomplete and correction
-├── word_freq.csv          # Sample dictionary with word frequencies
+├── unigram_freq.csv          # Sample dictionary with word frequencies
 └── README.md              # You're here!
 ```
 
@@ -30,7 +30,7 @@ cd search-autocomplete
 ```
 
 2. **Prepare the Dictionary File**
-Ensure `word_freq.csv` exists with the format:
+Ensure `unigram_freq.csv` exists with the format:
 ```csv
 word,frequency
 hello,1000
